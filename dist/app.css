@@ -5,8 +5,13 @@
 }
 
 .wrapper {
-  width: 90%;
   margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .nav-bar {
@@ -43,4 +48,18 @@ header .heading-img {
 }
 header .heading-img img {
   width: 100%;
+}
+
+main {
+  background-color: #ffe7d2;
+}
+main section {
+  text-align: center;
+  padding: 20px;
+}
+main section .three-logo {
+  display: flex;
+}
+main section .three-logo img {
+  align-content: space-between;
 }

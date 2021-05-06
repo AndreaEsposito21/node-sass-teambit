@@ -1,0 +1,16 @@
+main {
+    background-color: #ffe7d2;
+
+    section {
+        text-align: center;
+        padding: 20px;
+
+        .three-logo {
+            @include flex;
+
+            img {
+                align-content: space-between;
+            }
+        }
+    }
+}

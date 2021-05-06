@@ -5,6 +5,11 @@
 }
 
 .wrapper {
-    width: 90%;
     margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
