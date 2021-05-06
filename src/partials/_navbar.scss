@@ -1,0 +1,28 @@
+.nav-bar {
+    @include flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+
+    .logo {
+        flex: 1%;
+    }
+
+    .menu {
+
+        ul {
+            list-style-type: none;
+            display: inline-block;
+
+            li {
+                display: inline-block;
+                margin-left: 20px;
+            }
+        }
+
+        button {
+            margin-left: 20px;
+            padding: 10px;
+        }
+    }
+}

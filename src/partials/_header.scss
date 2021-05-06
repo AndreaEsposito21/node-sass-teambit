@@ -1,0 +1,16 @@
+header {
+    @include flex;
+    padding: 20px;
+
+    .heading {
+        flex: 50%;
+    }
+
+    .heading-img {
+        flex: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+}

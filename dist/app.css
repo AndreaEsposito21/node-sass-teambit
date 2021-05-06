@@ -1,1 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.nav-bar .logo {
+  flex: 1%;
+}
+.nav-bar .menu ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.nav-bar .menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.nav-bar .menu button {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+}
+header .heading {
+  flex: 50%;
+}
+header .heading-img {
+  flex: 50%;
+}
+header .heading-img img {
+  width: 100%;
+}
