@@ -1,8 +1,8 @@
 .nav-bar {
     @include flex;
+    @include bot-border;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid black;
 
     .logo {
         flex: 1%;

@@ -1,16 +1,31 @@
-main {
+.bg-orange {
     background-color: #ffe7d2;
+
+    h2 {
+        margin: 30px 0;
+    }
 
     section {
         text-align: center;
         padding: 20px;
 
         .three-logo {
-            @include flex;
-
+            padding: 5%;
             img {
-                align-content: space-between;
+                width: auto;
+                height: 150px;
             }
+        }
+
+        .one-logo {
+            img {
+                padding: 30px;
+                width: 30%;
+            }
+        }
+        .separator {
+            padding: 50px 0;
+            @include bot-border;
         }
     }
 }

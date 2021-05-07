@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 
-.wrapper {
-    margin: auto;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.wrapper {
+    margin: auto;
+    color: #58402c;
 }

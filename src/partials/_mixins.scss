@@ -1,3 +1,7 @@
 @mixin flex {
     display: flex;
 }
+
+@mixin bot-border {
+    border-bottom: 1px solid black;
+}
