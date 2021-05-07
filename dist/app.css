@@ -75,6 +75,13 @@ header .heading-img img {
   border-bottom: 1px solid black;
 }
 
+.bg-white .sec-left .flexing-box {
+  display: flex;
+}
+.bg-white .sec-left .flexing-box .banner {
+  width: 50%;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;

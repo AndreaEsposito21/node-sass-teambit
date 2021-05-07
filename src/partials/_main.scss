@@ -29,3 +29,15 @@
         }
     }
 }
+
+.bg-white {
+    .sec-left {
+        .flexing-box {
+            @include flex;
+            .banner {
+                width: 50%;
+            }
+            
+        }
+    }
+}
