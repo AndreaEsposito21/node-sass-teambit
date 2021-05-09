@@ -1,5 +1,8 @@
 .bg-orange {
-    background-color: #ffe7d2;
+    background-color: $color-base;
+}
+
+.first-section {
 
     h2 {
         margin: 30px 0;
@@ -91,6 +94,31 @@
             }
             .flex-vuoto {
                 flex: 20%;
+            }
+        }
+    }
+}
+
+.last-section {
+    .intestazioni {
+        text-align: center;
+        font-size: 32px;
+        padding: 30px 0;
+        width: 33%;
+        margin: auto;
+    }
+    .mini-box {
+        margin: auto;
+        width: 50%;
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid #3E14E9;
+        .cofounder {
+            padding: 20px 0;
+            img {
+                margin-right: 20px;
+                vertical-align: middle;
             }
         }
     }
